@@ -159,15 +159,15 @@ function Programmer(name, job, age, languages, busy = true) {
 
 
 const c1 = new Programmer("Liana", "DevOps", 35, ["HTML", "C#", "LUA"], true);
-const c2 = new Programmer("Edwin", "janitor", 55, ["HTML", "SASS", "RUBY"]);
-const c3 = new Programmer("Manny", "SysOps", 31,[("HTML", "CSS", "JS", "R")]);
+const c2 = new Programmer("Edwin", "janitor", 55, ["HTML", "SASS", "RUBY", ]);
+const c3 = new Programmer("Manny", "SysOps", 31,["HTML", "CSS", "JS", "R", ]);
 
 
 
 //calling
-c1.learnLanguage("CSS");
-c2.learnLanguage("C++");
-c3.learnLanguage("JAVA");
+c1.learnLanguage(",CSS");
+c2.learnLanguage(",C++");
+c3.learnLanguage(",JAVA");
 console.log(c1.listLanguage());
 console.log(c2.listLanguage());
 console.log(c3.listLanguage());
